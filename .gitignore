@@ -104,4 +104,8 @@ build/
 # TernJS port file
 .tern-port
 
+<<<<<<< HEAD
 desktop.ini
+=======
+desktop.ini
+>>>>>>> 9ce045830edc724adea8f0f3d788b1f4043b5acd
