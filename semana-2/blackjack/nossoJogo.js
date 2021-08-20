@@ -1,10 +1,13 @@
 console.log('Bem vindo ao jogo de Blackjack!');
 
 if (confirm('Quer iniciar uma nova rodada?')) {
+  let somaCartasUsuario;
+  let somaCartasComputador;
+
   const usuario = () => {
     let carta1 = comprarCarta();
     let carta2 = comprarCarta();
-    let somaCartasUsuario = carta1.valor + carta2.valor;
+    somaCartasUsuario = carta1.valor + carta2.valor;
     console.log(
       `Usuário - cartas: ${carta1.texto} ${carta2.texto} - pontuação ${somaCartasUsuario}`
     );
@@ -14,7 +17,7 @@ if (confirm('Quer iniciar uma nova rodada?')) {
   const computador = () => {
     let carta1 = comprarCarta();
     let carta2 = comprarCarta();
-    let somaCartasComputador = carta1.valor + carta2.valor;
+    somaCartasComputador = carta1.valor + carta2.valor;
     console.log(
       `Computador - cartas: ${carta1.texto} ${carta2.texto} - pontuação ${somaCartasComputador}`
     );
