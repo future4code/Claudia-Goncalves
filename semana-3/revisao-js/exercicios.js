@@ -31,7 +31,15 @@ function retornaNumerosPares(array) {
 }
 
 // EXERCÍCIO 05
-function retornaNumerosParesElevadosADois(array) {}
+function retornaNumerosParesElevadosADois(array) {
+  let potencia = [];
+  for (let i = 0; i < array.length; i++) {
+    if (array[i] % 2 === 0) {
+      potencia.push(array[i] ** 2);
+    }
+  }
+  return potencia;
+}
 
 // EXERCÍCIO 06
 function retornaMaiorNumero(array) {
