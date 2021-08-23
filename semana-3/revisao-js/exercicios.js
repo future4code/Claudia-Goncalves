@@ -26,7 +26,9 @@ function retornaNumerosPares(array) {}
 function retornaNumerosParesElevadosADois(array) {}
 
 // EXERCÍCIO 06
-function retornaMaiorNumero(array) {}
+function retornaMaiorNumero(array) {
+  return Math.max(...array);
+}
 
 // EXERCÍCIO 07
 function retornaObjetoEntreDoisNumeros(num1, num2) {}
