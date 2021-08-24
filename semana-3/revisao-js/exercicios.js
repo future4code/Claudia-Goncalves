@@ -47,22 +47,52 @@ function retornaMaiorNumero(array) {
 }
 
 // EXERCÍCIO 07
-function retornaObjetoEntreDoisNumeros(num1, num2) {}
+function retornaObjetoEntreDoisNumeros(num1, num2) {
+  let maiorNum = Math.max(num1, num2);
+  let menorNum = Math.min(num1, num2);
+  return {
+    maiorNumero: maiorNum,
+    maiorDivisivelPorMenor: maiorNum % menorNum === 0,
+    diferenca: maiorNum - menorNum,
+  };
+}
 
 // EXERCÍCIO 08
-function retornaNPrimeirosPares(n) {}
+function retornaNPrimeirosPares(n) {
+  const resultado = [];
+
+  for (let i = 0; i < n; i++) {
+    resultado[i] = 2 * i;
+  }
+
+  return resultado;
+}
 
 // EXERCÍCIO 09
-function classificaTriangulo(ladoA, ladoB, ladoC) {}
+function classificaTriangulo(ladoA, ladoB, ladoC) {
+  if (ladoA !== ladoB && ladoB !== ladoC && ladoC !== ladoA) {
+    return 'Escaleno';
+  } else if (ladoA === ladoB && ladoB === ladoC) {
+    return 'Equilátero';
+  } else {
+    return 'Isósceles';
+  }
+}
 
 // EXERCÍCIO 10
 function retornaSegundoMaiorESegundoMenor(array) {}
 
 // EXERCÍCIO 11
-function retornaChamadaDeFilme(filme) {}
+function retornaChamadaDeFilme(filme) {
+  return `Venha assistir ao filme ${filme.nome}, de ${
+    filme.ano
+  }, dirigido por ${filme.diretor} e estrelado por ${filme.atores.join(', ')}.`;
+}
 
 // EXERCÍCIO 12
-function retornaPessoaAnonimizada(pessoa) {}
+function retornaPessoaAnonimizada(pessoa) {
+  return { ...pessoa, nome: 'ANÔNIMO' };
+}
 
 // EXERCÍCIO 13A
 function retornaPessoasAutorizadas(pessoas) {}
