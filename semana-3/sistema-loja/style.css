@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  list-style: none;
+  border: 0;
+}
+
+.header {
+  background-image: linear-gradient(to bottom, #4286f4, #373b44);
+}
+.logomarca {
+  width: 300px;
+  height: 90px;
+}
+
+.footer {
+  background-image: linear-gradient(to bottom, #2980b9, #6dd5fa);
+  padding: 10px;
+}
+
+.texto {
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bold;
+}
+
+.div-redes {
+  align-items: center;
+}
+.icone-redes {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
