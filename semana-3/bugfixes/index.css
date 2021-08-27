@@ -44,6 +44,7 @@ div img {
   border-radius: 5px;
   font-size: 20px;
   color: white;
+  margin-top: 100px;
 }
 
 .botao-amarelo:hover {
@@ -68,7 +69,7 @@ div img {
 #container-de-descricao {
   background-color: #2274a5;
   color: white;
-  padding-top: 50px;
+  padding-top: 100px;
 }
 
 #container-de-descricao > ol {
@@ -83,6 +84,7 @@ div img {
   color: #c44f00;
   padding: 100px 0;
   font-size: 60px;
+  display: block;
 }
 
 /**
@@ -125,4 +127,12 @@ td button {
 
 #back-button:hover {
   background-color: #635a3d;
+}
+
+.container-table {
+  font-weight: bold;
+}
+
+.container-table button {
+  font-weight: bold;
 }
