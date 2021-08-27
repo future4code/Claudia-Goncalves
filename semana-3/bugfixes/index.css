@@ -133,6 +133,14 @@ td button:hover {
   border-left-style: hidden;
 }
 
+.container-table {
+  font-weight: bold;
+  margin: 0 auto;
+}
+.container-back-button {
+  margin-top: 500px;
+}
+
 #back-button {
   background-color: white;
   width: 100px;
@@ -141,13 +149,11 @@ td button:hover {
   border-radius: 5px;
   font-size: 10px;
   color: black;
+  display: block;
+  margin: 100px auto;
 }
 
 #back-button:hover {
   background-color: #635a3d;
   color: #fff;
-}
-
-.container-table {
-  font-weight: bold;
 }
