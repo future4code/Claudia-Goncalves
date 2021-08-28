@@ -1,35 +1,51 @@
-/* Estilos gerais */
-/* header menu */
-.container-menu {
-  width: 100%;
-  height: 80px;
-  background-color: #624f72;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-.item-menu {
-  display: flex;
-}
-
-.btn-menu {
-  margin: 0 10px;
-  background-color: #f4e3fb;
-  font-family: 'Maven Pro', sans-serif;
-  transition: 0.3s;
-  border: 2px solid #514160;
-  border-radius: 25px;
-  font-size: 24px;
+.foto {
   width: 180px;
-  height: 40px;
+  height: 190px;
+  border-radius: 50%;
+  margin: 50px auto 50px 110px;
 }
-.btn-menu:hover {
-  font-size: 28px;
+
+.lista-competencias {
+  margin-top: 20px;
+  text-align: center;
 }
 
-/* footer  */
+.lista-competencias ul {
+  padding-bottom: 30px;
+  font-weight: bold;
+}
 
-/* Estilos gerais */
+.lista-competencias img {
+  width: 20px;
+  height: 20px;
+}
 
-/* body */
+.container-lateral {
+  width: 400px;
+  margin: auto auto;
+  background: #877696;
+}
+
+.container-lateral h3 {
+  text-align: center;
+}
+
+.container-principal {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.container-principal h1 {
+  margin: 50px 0 20px 0;
+  text-align: center;
+}
+
+.container-principal h2 {
+  margin: 40px 0 10px 0;
+  text-align: center;
+}
+
+.container-principal p {
+  padding: 0 20px 0 20px;
+  text-align: left;
+}
